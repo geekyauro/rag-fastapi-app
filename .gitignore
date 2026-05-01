@@ -1,0 +1,75 @@
+# =========================
+# Python virtual environments
+# =========================
+venv/
+env/
+.venv/
+
+# Windows venv internals (your Lib issue)
+Lib/
+Scripts/
+Include/
+
+# =========================
+# Python cache / bytecode
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Editor / IDE files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS-specific files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs and runtime files
+# =========================
+*.log
+logs/
+
+# =========================
+# ML / AI artifacts
+# =========================
+faiss_store/
+*.bin
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.h5
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+
+# =========================
+# Build / distribution
+# =========================
+build/
+dist/
+*.egg-info/
